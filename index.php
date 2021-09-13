@@ -1,14 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
+<?php
+session_start();
+if (isset($_SESSION['unique_id'])) {
+    header("location: user.php");
+}
+?>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chat.io | Send text to your friend</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
-</head>
+<?php include_once "header.php"; ?>
 
 <body>
     <div class="wrapper">
@@ -46,8 +43,10 @@
             <div class="link">Already signed up? <a href="#">Login now</a></div>
         </section>
     </div>
+
     <script src="js/pass-show-hide.js"></script>
     <script src="js/signup.js"></script>
+
 </body>
 
 </html>
