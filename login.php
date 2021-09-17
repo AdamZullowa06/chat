@@ -1,8 +1,5 @@
 <?php
 session_start();
-if (isset($_SESSION['unique_id'])) {
-    header("location: user.php");
-}
 ?>
 
 <?php include_once "header.php"; ?>
@@ -26,7 +23,7 @@ if (isset($_SESSION['unique_id'])) {
                     <input type="submit" value="Continue to chat">
                 </div>
             </form>
-            <div class="link">Not yet signed up? <a href="#">Signup now</a></div>
+            <div class="link">Not yet signed up? <a href="index.php">Signup now</a></div>
         </section>
     </div>
     <script src="js/pass-show-hide.js"></script>
