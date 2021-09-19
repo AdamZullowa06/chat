@@ -27,66 +27,7 @@ if (!isset($_SESSION['unique_id'])) {
                 </div>
             </header>
             <div class="chat-box">
-                <div class="chat outgoing">
-                    <img src="" alt="">
-                    <div class="details">
-                        <p>asdasdasdasdasdasdadasdasdasdasdasdasdasd</p>
-                    </div>
-                </div>
-                <div class="chat incoming">
-                    <img src="portfolio.png" alt="">
-                    <div class="details">
-                        <p>asdasdasdasdasdasdadasdasdasdasdasdasdasd</p>
-                    </div>
-                </div>
-                <div class="chat outgoing">
-                    <img src="" alt="">
-                    <div class="details">
-                        <p>asdasdasdasdasdasdadasdasdasdasdasdasdasd</p>
-                    </div>
-                </div>
-                <div class="chat incoming">
-                    <img src="portfolio.png" alt="">
-                    <div class="details">
-                        <p>asdasdasdasdasdasdadasdasdasdasdasdasdasd</p>
-                    </div>
-                </div>
-                <div class="chat outgoing">
-                    <img src="" alt="">
-                    <div class="details">
-                        <p>asdasdasdasdasdasdadasdasdasdasdasdasdasd</p>
-                    </div>
-                </div>
-                <div class="chat incoming">
-                    <img src="portfolio.png" alt="">
-                    <div class="details">
-                        <p>asdasdasdasdasdasdadasdasdasdasdasdasdasd</p>
-                    </div>
-                </div>
-                <div class="chat outgoing">
-                    <img src="" alt="">
-                    <div class="details">
-                        <p>asdasdasdasdasdasdadasdasdasdasdasdasdasd</p>
-                    </div>
-                </div>
-                <div class="chat incoming">
-                    <img src="portfolio.png" alt="">
-                    <div class="details">
-                        <p>asdasdasdasdasdasdadasdasdasdasdasdasdasd</p>
-                    </div>
-                </div>
-                <div class="chat outgoing">
-                    <img src="" alt="">
-                    <div class="details">
-                        <p>asdasdasdasdasdasdadasdasdasdasdasdasdasd</p>
-                    </div>
-                </div>
-                <div class="chat incoming">
-                    <img src="portfolio.png" alt="">
-                    <div class="details">
-                        <p>asdasdasdasdasdasdadasdasdasdasdasdasdasd</p>
-                    </div>
-                </div>
+
             </div>
             <form action="#" class="typing-area" autocomplete="off">
                 <input type="text" name="outgoing_id" value="<?php echo $_SESSION['unique_id']; ?>" hidden>
